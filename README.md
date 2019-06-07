@@ -1,45 +1,29 @@
-React Boilerplate
-=====================
+# Lighthouse Labs - Chatty App
 
-A minimal and light dev environment for ReactJS.
+## Introductory React Project
 
-### Usage
+By Aaron Bolarinho
 
-Clone the boilerplate and create your own git repo.
+Hello and Welcome!
 
-```
-git clone git@github.com:lighthouse-labs/react-simple-boilerplate.git
-cd react-simple-boilerplate
-git remote rm origin
-git remote add origin [YOUR NEW REPOSITORY]
-# Manually update your package.json file
-```
+### Overview
 
-Install the dependencies and start the server.
+This single page app was the first project we did after being introduced to React.
 
-```
-npm install
-npm start
-open http://localhost:3000
-```
+The challenge of this project was to recreate the app according to the its specifications.
 
-### Static Files
+ - Javascript
+ - Node.js and server-side middle-ware
+ - Html, CSS, and basic front-end formatting
+ - React
 
-You can store static files like images, fonts, etc in the `build` folder.
+** Lighthouse Labs Chatty App**
 
-For example, if you copy a file called my_image.png into the build folder you can access it using `http://localhost:3000/build/my_image.png`.
+This small project is a single page chatroom app built with a React front end.
 
-### Linting
+Any user who travels to the url where the app is live can chat in the chat room; and users can choose their display name as well.
 
-This boilerplate project includes React ESLint configuration.
+As the app does not have a back-end, all the messages are stored in the state of the main React component.
 
-```
-npm run lint
-```
-
-### Dependencies
-
-* React
-* Webpack
-* [babel-loader](https://github.com/babel/babel-loader)
-* [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+### The Main Page
+![""](https://github.com/AaronBolarinho/Lighthouse-Labs-ChattyApp/blob/master/styles/Screenshot%20from%202019-06-07%2016-10-50.png)
